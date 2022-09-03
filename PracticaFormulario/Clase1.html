@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <head>
+        <title>Formulario1</title>
+    </head>
+    <body>
+        <!--Se crea el formulario-->
+        <form action="resultados.html" method="GET">
+            <!--Se crea el primer div que contiene el nombre del usuario con su respetivo input-->
+            <div>
+                <label for = "nameUser">Nombre</label>
+                <!--La etiqueta required sirve para hacer que sea un campo obligatorio-->
+                <input type = "text" name = "nameUser" id = "nameUser" required></input>
+            </div>
+            <br>
+            <!--Contiene la contraseña con su respetivo input-->
+            <div>
+                <label for = "password">Contraseña</label>
+                <input type = "password" name = "password" id = "password" required></input>
+            </div>
+            <br>
+            <!--Contiene el comentario con su respetivo input-->
+            <div>
+                <label for = "comments">Comentario</label>
+                <textarea name = "comments" id = "comments"></textarea>
+            </div>
+            <br>
+            <button type = "submit">Enviar</button>
+            <button type = "reset">Reset</button>
+        </form>
+    </body>
+</html>
